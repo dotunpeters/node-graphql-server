@@ -13,10 +13,8 @@ export default async function upload(path: string, fileName: string) {
 
     // Upload
     let downloadUrl: string = "";
-    console.log(">>>>> ", path, fileName)
     try{
         const data = await cloudinary.uploader.upload(path, {public_id: fileName})
-        console.log("data>>>>> ", data)
         downloadUrl = data.secure_url;
     }catch (e: any) {
         throw new GraphQLError(`error in cloudinary... ${e.message}`);

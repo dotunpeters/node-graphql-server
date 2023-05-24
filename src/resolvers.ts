@@ -26,7 +26,12 @@ const resolvers = {
         },
         getSignedDownloadUrl: (parent: any, args: { s3Key: string }): ISignedLinkData  => {
             const { s3Key } = args;
-            return dataList.link.find(link => link.key === s3Key) as ISignedLinkData;
+            const result = dataList.link.find(link => link.key === s3Key) as ISignedLinkData;
+            if (result) {
+                return result;
+            }else {
+                throw new GraphQLError('Key not found');
+            }
         }
     },
 
@@ -70,19 +75,19 @@ const resolvers = {
         getSignedUploadUrl: async (parent: any, args: { input: ISignedFileUploadInput, file: File}): Promise<ISignedLinkData> => {
             const { input, file } = args;
             const key = input.fileName + "-" + uuid4();
-            const imagePath: string = `./logos/${key}`;
+            const imagePath: string = `./images/${key}`;
             try {
                 const fileArrayBuffer = await file.arrayBuffer()
                 await fs.promises.writeFile(
-                    path.join(__dirname, `/logos/${key}.${input.contentType.split("/")[1]}`),
+                    path.join(__dirname, `/images/${key}.${input.contentType.split("/")[1]}`),
                     Buffer.from(fileArrayBuffer)
                 )
             } catch (e: any) {
                 throw new GraphQLError(e.message);
             }
-            const { url, downloadUrl } = await upload(path.resolve(__dirname)+`/logos/${key}.${input.contentType.split("/")[1]}`, key);
+            const { url, downloadUrl } = await upload(path.resolve(__dirname)+`/images/${key}.${input.contentType.split("/")[1]}`, key);
             // delete image from local storage
-            // fs.unlinkSync(path.resolve(__dirname)+`/logos/${key}.${input.contentType.split("/")[1]}`)
+            fs.unlinkSync(path.resolve(__dirname)+`/images/${key}.${input.contentType.split("/")[1]}`)
             dataList.link.push({key, url: downloadUrl});
             return {url, key} as ISignedLinkData;
         }

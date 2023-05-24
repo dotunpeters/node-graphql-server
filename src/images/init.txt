@@ -1,0 +1,2 @@
+
+temporary images in here are for the purpose of passing a string path to cloudinary instead of blob or ArrayBuffer
