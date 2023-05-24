@@ -12,6 +12,7 @@ export default async function upload(path: string, fileName: string) {
 
     // Upload
     let downloadUrl: string;
+    console.log(">>>>> ", path, fileName)
     try{
         const data = await cloudinary.uploader.upload(path, {public_id: fileName})
         downloadUrl = data.secure_url;
