@@ -19,7 +19,7 @@ export default async function upload(path: string, fileName: string) {
         console.log("data>>>>> ", data)
         downloadUrl = data.secure_url;
     }catch (e: any) {
-        new GraphQLError(`error in cloudinary... ${e.message}`);
+        throw new GraphQLError(`error in cloudinary... ${e.message}`);
     }
     // Generate url
     const url = await cloudinary.url(fileName, {

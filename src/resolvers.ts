@@ -18,7 +18,7 @@ const resolvers = {
             if (company) {
                 return company;
             }else {
-                new GraphQLError('Company not found');
+                throw new GraphQLError('Company not found');
             }
         },
         companies: () => {
@@ -40,7 +40,7 @@ const resolvers = {
                 pubSub.publish('updatedCompany', { updatedCompany: dataList.companies });
                 return {company};
             } else {
-                new GraphQLError('Company not found');
+                throw new GraphQLError('Company not found');
             }
         },
         createCompany: (parent: any, args: { input: IUpdateCompanyInput }): IUpdateCompanyResponse => {
@@ -64,7 +64,7 @@ const resolvers = {
                 pubSub.publish('updatedCompany', { updatedCompany: dataList.companies });
                 return {company};
             } else {
-                new GraphQLError('Company not found');
+                throw new GraphQLError('Company not found');
             }
         },
         getSignedUploadUrl: async (parent: any, args: { input: ISignedFileUploadInput, file: File}): Promise<ISignedLinkData> => {
@@ -78,7 +78,7 @@ const resolvers = {
                     Buffer.from(fileArrayBuffer)
                 )
             } catch (e: any) {
-                new GraphQLError(e.message);
+                throw new GraphQLError(e.message);
             }
             const { url, downloadUrl } = await upload(path.resolve(__dirname)+`/logos/${key}.${input.contentType.split("/")[1]}`, key);
             // delete image from local storage
