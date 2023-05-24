@@ -1,0 +1,238 @@
+{
+  "companies": [
+    {
+      "id": "6828c6be-23c6-493d-95ab-7ed90eb01309",
+      "legalName": "testing company",
+      "stateOfIncorporation": "Lagos state",
+      "industry": "technology",
+      "totalNumberOfEmployees": 25,
+      "numberOfFullTimeEmployees": 13,
+      "numberOfPartTimeEmployees": 12,
+      "website": "https://www.testingcompany.com",
+      "linkedInCompanyPage": "https://www.linkedin.com/testingcompany",
+      "facebookCompanyPage": "https://www.facebook.com/tesingcompany",
+      "otherInformation": "nil",
+      "primaryContactPerson": {
+        "firstName": "Dotun",
+        "lastName": "Oyelakin",
+        "email": "oyelakindotun@gmail.com",
+        "phone": "+2347063922596"
+      },
+      "logoS3Key": "dotun-780fe52f-10e8-4ac5-9581-aef349b12d2e",
+      "phone": "+2347063922596",
+      "fax": "+2347063922596",
+      "email": "oyelakindotun@gmail.com",
+      "registeredAddress": {
+        "country": "Nigeria",
+        "state": "Lagos",
+        "city": "Ikeja",
+        "street": "old otta road",
+        "zipCode": "100234"
+      },
+      "mailingAddress": {
+        "country": "Nigeria",
+        "state": "Lagos",
+        "city": "Ikeja",
+        "street": "old otta road",
+        "zipCode": "100234"
+      },
+      "isMailingAddressDifferentFromRegisteredAddress": true
+    },
+    {
+      "id": "38e1efae-f933-428b-b3cb-6e86877962fb",
+      "legalName": "testing company",
+      "stateOfIncorporation": "Lagos state",
+      "industry": "technology",
+      "totalNumberOfEmployees": 25,
+      "numberOfFullTimeEmployees": 13,
+      "numberOfPartTimeEmployees": 12,
+      "website": "https://www.testingcompany.com",
+      "linkedInCompanyPage": "https://www.linkedin.com/testingcompany",
+      "facebookCompanyPage": "https://www.facebook.com/tesingcompany",
+      "otherInformation": "nil",
+      "primaryContactPerson": {
+        "firstName": "Dotun",
+        "lastName": "Oyelakin",
+        "email": "oyelakindotun@gmail.com",
+        "phone": "+2347063922596"
+      },
+      "logoS3Key": "dotun-780fe52f-10e8-4ac5-9581-aef349b12d2e",
+      "phone": "+2347063922596",
+      "fax": "+2347063922596",
+      "email": "oyelakindotun@gmail.com",
+      "registeredAddress": {
+        "country": "Nigeria",
+        "state": "Lagos",
+        "city": "Ikeja",
+        "street": "old otta road",
+        "zipCode": "100234"
+      },
+      "mailingAddress": {
+        "country": "Nigeria",
+        "state": "Lagos",
+        "city": "Ikeja",
+        "street": "old otta road",
+        "zipCode": "100234"
+      },
+      "isMailingAddressDifferentFromRegisteredAddress": true
+    },
+    {
+      "id": "d70c7f99-f5dd-4e8f-b6b9-a43ef526b92b",
+      "legalName": "testing company",
+      "stateOfIncorporation": "Lagos state",
+      "industry": "technology",
+      "totalNumberOfEmployees": 25,
+      "numberOfFullTimeEmployees": 13,
+      "numberOfPartTimeEmployees": 12,
+      "website": "https://www.testingcompany.com",
+      "linkedInCompanyPage": "https://www.linkedin.com/testingcompany",
+      "facebookCompanyPage": "https://www.facebook.com/tesingcompany",
+      "otherInformation": "nil",
+      "primaryContactPerson": {
+        "firstName": "Dotun",
+        "lastName": "Oyelakin",
+        "email": "oyelakindotun@gmail.com",
+        "phone": "+2347063922596"
+      },
+      "logoS3Key": "dotun-780fe52f-10e8-4ac5-9581-aef349b12d2e",
+      "phone": "+2347063922596",
+      "fax": "+2347063922596",
+      "email": "oyelakindotun@gmail.com",
+      "registeredAddress": {
+        "country": "Nigeria",
+        "state": "Lagos",
+        "city": "Ikeja",
+        "street": "old otta road",
+        "zipCode": "100234"
+      },
+      "mailingAddress": {
+        "country": "Nigeria",
+        "state": "Lagos",
+        "city": "Ikeja",
+        "street": "old otta road",
+        "zipCode": "100234"
+      },
+      "isMailingAddressDifferentFromRegisteredAddress": true
+    },
+    {
+      "id": "c7b1320a-e43b-43f6-b07f-f8f4909f8c43",
+      "legalName": "testing company",
+      "stateOfIncorporation": "Lagos state",
+      "industry": "technology",
+      "totalNumberOfEmployees": 25,
+      "numberOfFullTimeEmployees": 13,
+      "numberOfPartTimeEmployees": 12,
+      "website": "https://www.testingcompany.com",
+      "linkedInCompanyPage": "https://www.linkedin.com/testingcompany",
+      "facebookCompanyPage": "https://www.facebook.com/tesingcompany",
+      "otherInformation": "nil",
+      "primaryContactPerson": {
+        "firstName": "Dotun",
+        "lastName": "Oyelakin",
+        "email": "oyelakindotun@gmail.com",
+        "phone": "+2347063922596"
+      },
+      "logoS3Key": "dotun-780fe52f-10e8-4ac5-9581-aef349b12d2e",
+      "phone": "+2347063922596",
+      "fax": "+2347063922596",
+      "email": "oyelakindotun@gmail.com",
+      "registeredAddress": {
+        "country": "Nigeria",
+        "state": "Lagos",
+        "city": "Ikeja",
+        "street": "old otta road",
+        "zipCode": "100234"
+      },
+      "mailingAddress": {
+        "country": "Nigeria",
+        "state": "Lagos",
+        "city": "Ikeja",
+        "street": "old otta road",
+        "zipCode": "100234"
+      },
+      "isMailingAddressDifferentFromRegisteredAddress": true
+    },
+    {
+      "id": "35ec329f-7e55-4f58-b275-efc39659bbb5",
+      "legalName": "testing company",
+      "stateOfIncorporation": "Lagos state",
+      "industry": "technology",
+      "totalNumberOfEmployees": 25,
+      "numberOfFullTimeEmployees": 13,
+      "numberOfPartTimeEmployees": 12,
+      "website": "https://www.testingcompany.com",
+      "linkedInCompanyPage": "https://www.linkedin.com/testingcompany",
+      "facebookCompanyPage": "https://www.facebook.com/tesingcompany",
+      "otherInformation": "nil",
+      "primaryContactPerson": {
+        "firstName": "Dotun",
+        "lastName": "Oyelakin",
+        "email": "oyelakindotun@gmail.com",
+        "phone": "+2347063922596"
+      },
+      "logoS3Key": "dotun-780fe52f-10e8-4ac5-9581-aef349b12d2e",
+      "phone": "+2347063922596",
+      "fax": "+2347063922596",
+      "email": "oyelakindotun@gmail.com",
+      "registeredAddress": {
+        "country": "Nigeria",
+        "state": "Lagos",
+        "city": "Ikeja",
+        "street": "old otta road",
+        "zipCode": "100234"
+      },
+      "mailingAddress": {
+        "country": "Nigeria",
+        "state": "Lagos",
+        "city": "Ikeja",
+        "street": "old otta road",
+        "zipCode": "100234"
+      },
+      "isMailingAddressDifferentFromRegisteredAddress": true
+    },
+    {
+      "id": "ccb843ae-5659-4bb7-bb98-aa1921453c94",
+      "legalName": "testing company",
+      "stateOfIncorporation": "Lagos state",
+      "industry": "technology",
+      "totalNumberOfEmployees": 25,
+      "numberOfFullTimeEmployees": 13,
+      "numberOfPartTimeEmployees": 12,
+      "website": "https://www.testingcompany.com",
+      "linkedInCompanyPage": "https://www.linkedin.com/testingcompany",
+      "facebookCompanyPage": "https://www.facebook.com/tesingcompany",
+      "otherInformation": "nil",
+      "primaryContactPerson": {
+        "firstName": "Dotun",
+        "lastName": "Oyelakin",
+        "email": "oyelakindotun@gmail.com",
+        "phone": "+2347063922596"
+      },
+      "logoS3Key": "dotun-780fe52f-10e8-4ac5-9581-aef349b12d2e",
+      "phone": "+2347063922596",
+      "fax": "+2347063922596",
+      "email": "oyelakindotun@gmail.com",
+      "registeredAddress": {
+        "country": "Nigeria",
+        "state": "Lagos",
+        "city": "Ikeja",
+        "street": "old otta road",
+        "zipCode": "100234"
+      },
+      "mailingAddress": {
+        "country": "Nigeria",
+        "state": "Lagos",
+        "city": "Ikeja",
+        "street": "old otta road",
+        "zipCode": "100234"
+      },
+      "isMailingAddressDifferentFromRegisteredAddress": true
+    }
+  ],
+  "link": [
+    {
+      "key": "dotun-780fe52f-10e8-4ac5-9581-aef349b12d2e",
+      "url": "https://res.cloudinary.com/dssw3epdr/image/upload/v1684886325/dotun-780fe52f-10e8-4ac5-9581-aef349b12d2e.jpg"
+    }
+  ]
+}
