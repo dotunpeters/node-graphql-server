@@ -1,5 +1,6 @@
 
 import * as fs from "fs";
+import { GraphQLError } from 'graphql';
 import isEqual from 'lodash/isEqual';
 import path from "path";
 import dataList from "./data";
@@ -8,7 +9,7 @@ import dataList from "./data";
 const writeDataToFile = () => {
     const content = JSON.stringify(dataList, null, 2);
     fs.writeFile(path.resolve(__dirname)+'/file.dataList.db', content, 'utf8', (err) => {
-        if (err) console.error('Error writing data to file:', err.message);
+        if (err) new GraphQLError(err.message);
     });
 };
 
@@ -20,7 +21,7 @@ export const retrieveDataFromFile = () => {
             dataList.companies = data.companies;
             dataList.link = data.link;
         }
-    } catch (err: any) {console.error('Error reading data from file:', err.message)}
+    } catch (err: any) {new GraphQLError(err.message)}
 };
 
 setInterval(() => {

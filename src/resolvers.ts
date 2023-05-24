@@ -1,4 +1,5 @@
 
+import { GraphQLError } from 'graphql'
 import * as fs from "fs";
 import path from "path";
 import uuid4 from "uuid4";
@@ -10,14 +11,14 @@ import upload from "./cloudinaryUpload";
 
 const resolvers = {
     Query: {
-        getCompany: (parent: any, args: { id: string }): ICompany => {
+        getCompany: (parent: any, args: { id: string }): ICompany | undefined => {
             const { id } = args;
             if (!uuid4.valid(id)) throw new Error('Invalid company id');
             const company = dataList.companies.find(company => company.id === id);
             if (company) {
                 return company;
             }else {
-                throw new Error('Company not found');
+                new GraphQLError('Company not found');
             }
         },
         companies: () => {
@@ -30,7 +31,7 @@ const resolvers = {
     },
 
     Mutation: {
-        updateCompany: (parent: any, args: { companyId: string, input: ICompany }): IUpdateCompanyResponse => {
+        updateCompany: (parent: any, args: { companyId: string, input: ICompany }): IUpdateCompanyResponse | undefined => {
             const { companyId, input } = args;
             if (!uuid4.valid(companyId)) throw new Error('Invalid company id');
             const company = dataList.companies.find(company => company.id === companyId);
@@ -39,7 +40,7 @@ const resolvers = {
                 pubSub.publish('updatedCompany', { updatedCompany: dataList.companies });
                 return {company};
             } else {
-                throw new Error('Company not found');
+                new GraphQLError('Company not found');
             }
         },
         createCompany: (parent: any, args: { input: IUpdateCompanyInput }): IUpdateCompanyResponse => {
@@ -53,7 +54,7 @@ const resolvers = {
             pubSub.publish('updatedCompany', { updatedCompany: dataList.companies });
             return {company};
         },
-        deleteCompany: (parent: any, args: { companyId: string }): IUpdateCompanyResponse => {
+        deleteCompany: (parent: any, args: { companyId: string }): IUpdateCompanyResponse | undefined => {
             const { companyId } = args;
             if (!uuid4.valid(companyId)) throw new Error('Invalid company id');
             const company = dataList.companies.find(company => company.id === companyId);
@@ -63,7 +64,7 @@ const resolvers = {
                 pubSub.publish('updatedCompany', { updatedCompany: dataList.companies });
                 return {company};
             } else {
-                throw new Error('Company not found');
+                new GraphQLError('Company not found');
             }
         },
         getSignedUploadUrl: async (parent: any, args: { input: ISignedFileUploadInput, file: File}): Promise<ISignedLinkData> => {
@@ -76,8 +77,8 @@ const resolvers = {
                     path.join(__dirname, `/logos/${key}.${input.contentType.split("/")[1]}`),
                     Buffer.from(fileArrayBuffer)
                 )
-            } catch (e) {
-                throw new Error('Error uploading file');
+            } catch (e: any) {
+                new GraphQLError(e.message);
             }
             const { url, downloadUrl } = await upload(path.resolve(__dirname)+`/logos/${key}.${input.contentType.split("/")[1]}`, key);
             // delete image from local storage
