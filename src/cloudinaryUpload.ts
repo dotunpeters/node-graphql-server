@@ -1,5 +1,6 @@
 
 const cloudinary = require('cloudinary').v2;
+import { GraphQLError } from 'graphql'
 
 export default async function upload(path: string, fileName: string) {
 
@@ -11,18 +12,19 @@ export default async function upload(path: string, fileName: string) {
     });
 
     // Upload
-    let downloadUrl: string;
+    let downloadUrl: string = "";
     console.log(">>>>> ", path, fileName)
     try{
         const data = await cloudinary.uploader.upload(path, {public_id: fileName})
+        console.log("data>>>>> ", data)
         downloadUrl = data.secure_url;
     }catch (e: any) {
-        throw new Error(e.message);
+        new GraphQLError(e.message);
     }
     // Generate url
     const url = await cloudinary.url(fileName, {
         width: 100,
-        height: 150,
+        height: 100,
         Crop: 'fill'
     });
     return {url, downloadUrl};
