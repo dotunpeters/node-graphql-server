@@ -82,7 +82,7 @@ const resolvers = {
             }
             const { url, downloadUrl } = await upload(path.resolve(__dirname)+`/logos/${key}.${input.contentType.split("/")[1]}`, key);
             // delete image from local storage
-            fs.unlinkSync(path.resolve(__dirname)+`/logos/${key}.${input.contentType.split("/")[1]}`)
+            // fs.unlinkSync(path.resolve(__dirname)+`/logos/${key}.${input.contentType.split("/")[1]}`)
             dataList.link.push({key, url: downloadUrl});
             return {url, key} as ISignedLinkData;
         }
