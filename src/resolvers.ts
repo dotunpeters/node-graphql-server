@@ -50,7 +50,7 @@ const resolvers = {
         },
         createCompany: (parent: any, args: { input: IUpdateCompanyInput }): IUpdateCompanyResponse => {
             const { input } = args;
-            if (!dataList.link.some(link => link.key === input.logoS3Key)) throw new GraphQLError('Invalid logoS3Key');
+            // if (!dataList.link.some(link => link.key === input.logoS3Key)) throw new GraphQLError('Invalid logoS3Key');
             const company = {
                 id: uuid4(),
                 ...input

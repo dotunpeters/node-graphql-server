@@ -2,31 +2,31 @@
   "companies": [
     {
       "id": "6828c6be-23c6-493d-95ab-7ed90eb01309",
-      "legalName": "testing company",
-      "stateOfIncorporation": "Lagos state",
-      "industry": "technology",
-      "totalNumberOfEmployees": 25,
+      "legalName": "Netflix Ltd",
+      "stateOfIncorporation": "Califonia",
+      "industry": "Entertainment",
+      "totalNumberOfEmployees": 24,
       "numberOfFullTimeEmployees": 13,
-      "numberOfPartTimeEmployees": 12,
-      "website": "https://www.testingcompany.com",
+      "numberOfPartTimeEmployees": 11,
+      "website": "https://www.netflix.com",
       "linkedInCompanyPage": "https://www.linkedin.com/testingcompany",
       "facebookCompanyPage": "https://www.facebook.com/tesingcompany",
       "otherInformation": "nil",
       "primaryContactPerson": {
-        "firstName": "Dotun",
-        "lastName": "Oyelakin",
-        "email": "oyelakindotun@gmail.com",
+        "firstName": "Sammy",
+        "lastName": "Jay",
+        "email": "samjay@gmail.com",
         "phone": "+2347063922596"
       },
       "logoS3Key": "dotun-780fe52f-10e8-4ac5-9581-aef349b12d2e",
-      "phone": "+2347063922596",
+      "phone": "+17063922596",
       "fax": "+2347063922596",
       "email": "oyelakindotun@gmail.com",
       "registeredAddress": {
-        "country": "Nigeria",
-        "state": "Lagos",
-        "city": "Ikeja",
-        "street": "old otta road",
+        "country": "Canada",
+        "state": "Vancouver",
+        "city": "British Columbia",
+        "street": "brt road",
         "zipCode": "100234"
       },
       "mailingAddress": {
@@ -34,26 +34,26 @@
         "state": "Lagos",
         "city": "Ikeja",
         "street": "old otta road",
-        "zipCode": "100234"
+        "zipCode": "100232"
       },
       "isMailingAddressDifferentFromRegisteredAddress": true
     },
     {
       "id": "38e1efae-f933-428b-b3cb-6e86877962fb",
-      "legalName": "testing company",
-      "stateOfIncorporation": "Lagos state",
-      "industry": "technology",
+      "legalName": "Tesla inc",
+      "stateOfIncorporation": "Manchester",
+      "industry": "Automotive",
       "totalNumberOfEmployees": 25,
       "numberOfFullTimeEmployees": 13,
       "numberOfPartTimeEmployees": 12,
-      "website": "https://www.testingcompany.com",
+      "website": "https://www.tesla.com",
       "linkedInCompanyPage": "https://www.linkedin.com/testingcompany",
       "facebookCompanyPage": "https://www.facebook.com/tesingcompany",
       "otherInformation": "nil",
       "primaryContactPerson": {
-        "firstName": "Dotun",
-        "lastName": "Oyelakin",
-        "email": "oyelakindotun@gmail.com",
+        "firstName": "Mikel",
+        "lastName": "John",
+        "email": "johnmikel@gmail.com",
         "phone": "+2347063922596"
       },
       "logoS3Key": "dotun-780fe52f-10e8-4ac5-9581-aef349b12d2e",
@@ -61,10 +61,10 @@
       "fax": "+2347063922596",
       "email": "oyelakindotun@gmail.com",
       "registeredAddress": {
-        "country": "Nigeria",
-        "state": "Lagos",
-        "city": "Ikeja",
-        "street": "old otta road",
+        "country": "England",
+        "state": "London",
+        "city": "Fulham",
+        "street": "fulham road",
         "zipCode": "100234"
       },
       "mailingAddress": {
@@ -78,16 +78,16 @@
     },
     {
       "id": "d70c7f99-f5dd-4e8f-b6b9-a43ef526b92b",
-      "legalName": "testing company",
-      "stateOfIncorporation": "Lagos state",
-      "industry": "technology",
+      "legalName": "Apple Inc ng",
+      "stateOfIncorporation": "Lagos",
+      "industry": "Hardware",
       "totalNumberOfEmployees": 25,
       "numberOfFullTimeEmployees": 13,
       "numberOfPartTimeEmployees": 12,
-      "website": "https://www.testingcompany.com",
+      "website": "https://www.apple.com",
       "linkedInCompanyPage": "https://www.linkedin.com/testingcompany",
       "facebookCompanyPage": "https://www.facebook.com/tesingcompany",
-      "otherInformation": "nil",
+      "otherInformation": "apple related info",
       "primaryContactPerson": {
         "firstName": "Dotun",
         "lastName": "Oyelakin",
@@ -116,21 +116,21 @@
     },
     {
       "id": "c7b1320a-e43b-43f6-b07f-f8f4909f8c43",
-      "legalName": "testing company",
-      "stateOfIncorporation": "Lagos state",
-      "industry": "technology",
-      "totalNumberOfEmployees": 25,
-      "numberOfFullTimeEmployees": 13,
+      "legalName": "Microsoft limited",
+      "stateOfIncorporation": "Lagos",
+      "industry": "Word Document",
+      "totalNumberOfEmployees": 22,
+      "numberOfFullTimeEmployees": 10,
       "numberOfPartTimeEmployees": 12,
-      "website": "https://www.testingcompany.com",
+      "website": "https://www.microsoft.com",
       "linkedInCompanyPage": "https://www.linkedin.com/testingcompany",
       "facebookCompanyPage": "https://www.facebook.com/tesingcompany",
-      "otherInformation": "nil",
+      "otherInformation": "awesome info",
       "primaryContactPerson": {
-        "firstName": "Dotun",
-        "lastName": "Oyelakin",
-        "email": "oyelakindotun@gmail.com",
-        "phone": "+2347063922596"
+        "firstName": "John",
+        "lastName": "Doe",
+        "email": "johndoe@gmail.com",
+        "phone": "+23374936558"
       },
       "logoS3Key": "dotun-780fe52f-10e8-4ac5-9581-aef349b12d2e",
       "phone": "+2347063922596",
@@ -154,16 +154,16 @@
     },
     {
       "id": "35ec329f-7e55-4f58-b275-efc39659bbb5",
-      "legalName": "testing company",
-      "stateOfIncorporation": "Lagos state",
-      "industry": "technology",
-      "totalNumberOfEmployees": 25,
-      "numberOfFullTimeEmployees": 13,
-      "numberOfPartTimeEmployees": 12,
-      "website": "https://www.testingcompany.com",
-      "linkedInCompanyPage": "https://www.linkedin.com/testingcompany",
-      "facebookCompanyPage": "https://www.facebook.com/tesingcompany",
-      "otherInformation": "nil",
+      "legalName": "Google Inc",
+      "stateOfIncorporation": "San Francisco",
+      "industry": "Search Engine",
+      "totalNumberOfEmployees": 300000,
+      "numberOfFullTimeEmployees": 250000,
+      "numberOfPartTimeEmployees": 50000,
+      "website": "https://www.google.com",
+      "linkedInCompanyPage": "https://www.linkedin.com/google",
+      "facebookCompanyPage": "https://www.facebook.com/google",
+      "otherInformation": "google info",
       "primaryContactPerson": {
         "firstName": "Dotun",
         "lastName": "Oyelakin",
@@ -192,20 +192,20 @@
     },
     {
       "id": "ccb843ae-5659-4bb7-bb98-aa1921453c94",
-      "legalName": "testing company",
-      "stateOfIncorporation": "Lagos state",
-      "industry": "technology",
+      "legalName": "World Bank",
+      "stateOfIncorporation": "Ontairo",
+      "industry": "Finance",
       "totalNumberOfEmployees": 25,
       "numberOfFullTimeEmployees": 13,
       "numberOfPartTimeEmployees": 12,
-      "website": "https://www.testingcompany.com",
+      "website": "https://www.worldbank.com",
       "linkedInCompanyPage": "https://www.linkedin.com/testingcompany",
       "facebookCompanyPage": "https://www.facebook.com/tesingcompany",
       "otherInformation": "nil",
       "primaryContactPerson": {
-        "firstName": "Dotun",
-        "lastName": "Oyelakin",
-        "email": "oyelakindotun@gmail.com",
+        "firstName": "Odontoid",
+        "lastName": "Process",
+        "email": "odontoidprocess@gmail.com",
         "phone": "+2347063922596"
       },
       "logoS3Key": "dotun-780fe52f-10e8-4ac5-9581-aef349b12d2e",
@@ -227,6 +227,82 @@
         "zipCode": "100234"
       },
       "isMailingAddressDifferentFromRegisteredAddress": true
+    },
+    {
+      "id": "a293542b-f2c7-4262-97aa-eb353546d242",
+      "legalName": "Dotun Inc",
+      "stateOfIncorporation": "London",
+      "industry": "Real Estate",
+      "totalNumberOfEmployees": 13,
+      "numberOfFullTimeEmployees": 1,
+      "numberOfPartTimeEmployees": 12,
+      "website": "https://www.dotun.com",
+      "linkedInCompanyPage": "https://www.linkedin.com/dotun",
+      "facebookCompanyPage": "https://www.facebook.com/dotun",
+      "otherInformation": "nil",
+      "primaryContactPerson": {
+        "firstName": "Dotun",
+        "lastName": "Oyelakin",
+        "email": "oyelakindotun@gmail.com",
+        "phone": "+2347063922596"
+      },
+      "logoS3Key": "dotun-e4577da1-8eca-4c69-bf96-3a88307ce815",
+      "phone": "+2347063922596",
+      "fax": "+2347063922596",
+      "email": "oyelakindotun@gmail.com",
+      "registeredAddress": {
+        "country": "England",
+        "state": "London",
+        "city": "Fulham",
+        "street": "fulham road",
+        "zipCode": "100234"
+      },
+      "mailingAddress": {
+        "country": "England",
+        "state": "London",
+        "city": "Fulham",
+        "street": "fulham road",
+        "zipCode": "100234"
+      },
+      "isMailingAddressDifferentFromRegisteredAddress": true
+    },
+    {
+      "id": "4be5fc34-a4d2-4ad7-a2d9-2aae0e27d802",
+      "legalName": "Peter Inc",
+      "stateOfIncorporation": "Lagos",
+      "industry": "Technology",
+      "totalNumberOfEmployees": 12,
+      "numberOfFullTimeEmployees": 11,
+      "numberOfPartTimeEmployees": 1,
+      "website": "https://www.peterinc.com",
+      "linkedInCompanyPage": "iqmax",
+      "facebookCompanyPage": "iqmax",
+      "otherInformation": "",
+      "primaryContactPerson": {
+        "firstName": "Dotun",
+        "lastName": "Oyelakin",
+        "email": "dotun.oyelakin@10hourlabs.com",
+        "phone": "+2347063922596"
+      },
+      "logoS3Key": "dotun-f0d007f0-e455-47cd-80bc-bae6cc518960",
+      "phone": "+2347063922596",
+      "fax": "",
+      "email": "oyelakindotun@gmail.com",
+      "registeredAddress": {
+        "country": "Nigeria",
+        "state": "Lagos",
+        "city": "Ikeja",
+        "street": "17/5 Diamond Estate, LASU road. Lagos, Nigeria",
+        "zipCode": "100242"
+      },
+      "mailingAddress": {
+        "country": "",
+        "state": "",
+        "city": "",
+        "street": "",
+        "zipCode": ""
+      },
+      "isMailingAddressDifferentFromRegisteredAddress": false
     }
   ],
   "link": [
@@ -245,6 +321,18 @@
     {
       "key": "dotun-bde86ec4-636e-4657-bba5-5b4b249fbb79",
       "url": "https://res.cloudinary.com/dssw3epdr/image/upload/v1684961119/dotun-bde86ec4-636e-4657-bba5-5b4b249fbb79.jpg"
+    },
+    {
+      "key": "dotun-e4577da1-8eca-4c69-bf96-3a88307ce815",
+      "url": "https://res.cloudinary.com/dssw3epdr/image/upload/v1685036514/dotun-e4577da1-8eca-4c69-bf96-3a88307ce815.jpg"
+    },
+    {
+      "key": "dotun-40d1bc1e-1d26-46c4-95ba-ecc3cca2a625",
+      "url": "https://res.cloudinary.com/dssw3epdr/image/upload/v1685117545/dotun-40d1bc1e-1d26-46c4-95ba-ecc3cca2a625.jpg"
+    },
+    {
+      "key": "dotun-f0d007f0-e455-47cd-80bc-bae6cc518960",
+      "url": "https://res.cloudinary.com/dssw3epdr/image/upload/v1685117562/dotun-f0d007f0-e455-47cd-80bc-bae6cc518960.jpg"
     }
   ]
 }
